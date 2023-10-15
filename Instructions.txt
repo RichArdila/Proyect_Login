@@ -1,5 +1,7 @@
-1. Creacion de usuario y contrasena (basico).
-2. Creacion de login (basico).
+1. Creacion de usuario y contrasena (basico). (ok)
+2. Creacion de login (basico). (ok)
+    2.1 Hacer funcionar la creacion de usuario llamando la funcion desde otro archivo.(ok)
+
 3. Validacion del usuario y contrasena al realizar el ingreso en el login (Condiciones basicas).
 4. Adicionar una interfaz para el usuario para que pueda navegar entre el registro de usuario y el login.
 5. Implementar en la creacion de usuario REGEX.
@@ -7,4 +9,37 @@
 7. Cambiar que las contrasenas se guarden en una base de datos.
 8. Cambiar que la validacion de login la haga contra la base de datos.
 9. Implementar metodos de seguridad necesarios (revisar).
-10.
+
+
+----------------------//------------------------------
+
+Condiciones basicas del login y registro de usuarios:
+1. Nombre de Usuario y Contraseña:
+El usuario debe proporcionar su nombre de usuario y contraseña para iniciar sesión.
+
+2 .Autenticación Segura:
+Utiliza técnicas seguras de autenticación, como hash y salting para almacenar y verificar las contraseñas.
+
+3. Bloqueo de Cuenta por Intentos Fallidos (opcional):
+Puedes implementar un mecanismo que bloquee temporalmente la cuenta después de un número específico de intentos fallidos para proteger contra ataques de fuerza bruta.
+
+4. Sesiones Seguras:
+Utiliza mecanismos seguros para gestionar las sesiones, como tokens seguros y la configuración adecuada de cookies.
+
+5. Recuperación de Contraseña:
+Proporciona una opción segura para que los usuarios recuperen sus contraseñas olvidadas, como a través de un enlace enviado por correo electrónico.
+
+6. Registro de Actividad (opcional):
+Puedes implementar un registro de actividad para realizar un seguimiento de los inicios de sesión y detectar posibles actividades sospechosas.
+
+7. Protección contra Ataques de Inyección:
+Asegúrate de que el sistema sea resistente a ataques de inyección, como ataques de SQL injection y XSS.
+
+8. Cierre de Sesión Seguro:
+Proporciona una opción segura para que los usuarios cierren sesión y asegúrate de que la información sensible se elimine adecuadamente.
+
+9. Notificaciones de Actividad (opcional):
+Puedes implementar notificaciones de actividad, como alertas por correo electrónico cuando se inicia sesión desde un nuevo dispositivo.
+
+10. Monitoreo de Seguridad:
+Implementa herramientas y prácticas para monitorear la seguridad del sistema y responder a posibles amenazas.

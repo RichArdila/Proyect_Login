@@ -1,0 +1,10 @@
+1. Creacion de usuario y contrasena (basico).
+2. Creacion de login (basico).
+3. Validacion del usuario y contrasena al realizar el ingreso en el login (Condiciones basicas).
+4. Adicionar una interfaz para el usuario para que pueda navegar entre el registro de usuario y el login.
+5. Implementar en la creacion de usuario REGEX.
+6. Implementar en el login REGEX.
+7. Cambiar que las contrasenas se guarden en una base de datos.
+8. Cambiar que la validacion de login la haga contra la base de datos.
+9. Implementar metodos de seguridad necesarios (revisar).
+10.

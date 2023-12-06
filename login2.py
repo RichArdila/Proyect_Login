@@ -18,21 +18,21 @@ class Login:
 
         # Title & subtitle
         tittle = Label(Frame_login, text="Login here", font= ("Impact", 35, "bold"), fg="#FF90BC", bg="white").place(x=90, y=20) # Place title
-        subtitle = Label(Frame_login, text="Member Login Area", font=("times new roman", 15, "bold"), fg="#8ACDD7", bg="white").place(x=90, y=85)
+        subtitle = Label(Frame_login, text="Member Login Area", font=("times new roman", 15, "bold"), fg="#8ACDD7", bg="white").place(x=90, y=85)   # Place subtitle
 
         # Username
-        lbl_user = Label(Frame_login, text="Username", font=("times new roman", 12, "bold"), fg="gray", bg="white").place(x=90, y=125)
-        self.username = Entry(Frame_login, font=("times new roman", 15), bg="lightgray")
-        self.username.place(x=90, y=150, width=280, height=30)
+        lbl_user = Label(Frame_login, text="Username", font=("times new roman", 12, "bold"), fg="gray", bg="white").place(x=90, y=125)  # Place label
+        self.username = Entry(Frame_login, font=("times new roman", 15), bg="lightgray")    # Create entry
+        self.username.place(x=90, y=150, width=280, height=30)  # Place entry
 
         # Password
-        lbl_password = Label(Frame_login, text="Password", font=("times new roman", 12, "bold"), fg="gray", bg="white").place(x=90, y=190)
-        self.password = Entry(Frame_login, font=("times new roman", 15), bg="lightgray")
-        self.password.place(x=90, y=220, width=280, height=30)
+        lbl_password = Label(Frame_login, text="Password", font=("times new roman", 12, "bold"), fg="gray", bg="white").place(x=90, y=190)  # Place label
+        self.password = Entry(Frame_login, font=("times new roman", 15), bg="lightgray")    # Create entry
+        self.password.place(x=90, y=220, width=280, height=30)  # Place entry
 
         # Button
-        forget = Button(Frame_login, text="Forget Password?", cursor="hand2", bg="white", fg="#8ACDD7", bd=0, font=("times new roman", 12)).place(x=90, y=260)
-        submit = Button(Frame_login, text="Login?", cursor="hand2", fg="white", bg="#8ACDD7", bd=0, font=("times new roman", 15)).place(x=90, y=290, width=180, height=35)
+        forget = Button(Frame_login, text="Forget Password?", cursor="hand2", bg="white", fg="#8ACDD7", bd=0, font=("times new roman", 12)).place(x=90, y=260)  # Place button
+        submit = Button(Frame_login, text="Login?", cursor="hand2", fg="white", bg="#8ACDD7", bd=0, font=("times new roman", 15)).place(x=90, y=290, width=180, height=35)  # Place button
         
 
 
